@@ -332,33 +332,48 @@ body.dark .project-card:hover {
     padding: 40px 25px;
   }
 
-  .about-card,
-  .project-card,
-  .contact-form {
-    padding: 30px 20px;
+  .hero-buttons {
+    flex-direction: column;
+    gap: 15px;
   }
 
-  h1 {
-    font-size: 1.8rem;
+  .about-grid {
+    grid-template-columns: 1fr;   
+    gap: 30px;
+    text-align: left;
+  }
+
+  .profile-img {
+    width: 160px;
+    margin: 0 auto;
+  }
+
+  .about-card {
+    padding: 35px 25px;
+  }
+
+  .about-card p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  .project-card {
+    padding: 30px 20px;
   }
 
   .project-title {
     font-size: 1.5rem;
   }
 
-  .hero-buttons {
-    flex-direction: column;
-    gap: 15px;
+  .contact-form {
+    padding: 30px 20px;
   }
 
   .project-button,
   .btn-primary,
-  .btn-secondary {
+  .btn-secondary,
+  .theme-toggle {
     width: 100%;
   }
 
-  .theme-toggle {
-    width: 100%;
-    margin-top: 20px;
-  }
 }
