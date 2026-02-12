@@ -323,28 +323,42 @@ body.dark .project-card:hover {
 /* ---------- RESPONSIVE ---------- */
 
 @media (max-width: 768px) {
-  .about-grid {
-    grid-template-columns: 1fr;
-    text-align: center;
+
+  .section {
+    padding: 60px 0;
   }
 
-  .hero-inner,
+  .hero-inner {
+    padding: 40px 25px;
+  }
+
   .about-card,
-  .project-card {
-    padding: 40px;
+  .project-card,
+  .contact-form {
+    padding: 30px 20px;
   }
 
-  .header-inner {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .project-title {
+    font-size: 1.5rem;
+  }
+
+  .hero-buttons {
     flex-direction: column;
     gap: 15px;
   }
 
-  .nav-list {
-    flex-direction: column;
-    align-items: center;
+  .project-button,
+  .btn-primary,
+  .btn-secondary {
+    width: 100%;
   }
 
-  .hero-buttons {
-    justify-content: center;
+  .theme-toggle {
+    width: 100%;
+    margin-top: 20px;
   }
 }
