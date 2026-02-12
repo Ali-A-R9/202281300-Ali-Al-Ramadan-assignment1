@@ -25,7 +25,7 @@ The website represents the starting point of my professional portfolio and will 
 - JavaScript (Vanilla JS)
 
 ---
-
+```
 ## Folder Structure
 assignment-1/
 │── index.html
@@ -39,7 +39,7 @@ assignment-1/
 │ ├── ai-usage-report.md
 │ └── technical-documentation.md
 │── README.md
-
+```
 
 ## Setup Instructions (Run Locally)
 
