@@ -328,6 +328,30 @@ body.dark .project-card:hover {
     padding: 60px 0;
   }
 
+  .header-inner {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .site-header h1 {
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 1.3;
+  }
+
+  .nav-list {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 18px;
+  }
+
+  .theme-toggle {
+    width: 100%;
+    max-width: 260px;
+  }
+
   .hero-inner {
     padding: 40px 25px;
   }
@@ -338,9 +362,8 @@ body.dark .project-card:hover {
   }
 
   .about-grid {
-    grid-template-columns: 1fr;   
+    grid-template-columns: 1fr;
     gap: 30px;
-    text-align: left;
   }
 
   .profile-img {
@@ -348,32 +371,17 @@ body.dark .project-card:hover {
     margin: 0 auto;
   }
 
-  .about-card {
-    padding: 35px 25px;
-  }
-
-  .about-card p {
-    font-size: 0.95rem;
-    line-height: 1.7;
-  }
-
-  .project-card {
-    padding: 30px 20px;
-  }
-
-  .project-title {
-    font-size: 1.5rem;
-  }
-
+  .about-card,
+  .project-card,
   .contact-form {
     padding: 30px 20px;
   }
 
   .project-button,
   .btn-primary,
-  .btn-secondary,
-  .theme-toggle {
+  .btn-secondary {
     width: 100%;
   }
 
 }
+
