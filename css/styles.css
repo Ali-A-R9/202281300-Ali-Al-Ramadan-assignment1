@@ -194,10 +194,13 @@ body.dark .project-card:hover {
   font-size: 2rem;
   margin-bottom: 15px;
   background: linear-gradient(90deg, var(--primary), var(--accent));
-  -webkit-background-clip: text;
+  background-clip: text;             
+  -webkit-background-clip: text;     
+  color: transparent;                
   -webkit-text-fill-color: transparent;
   transition: 0.3s;
 }
+
 
 .project-card:hover .project-title {
   transform: translateY(-3px);
