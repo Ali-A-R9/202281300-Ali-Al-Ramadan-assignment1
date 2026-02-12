@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ali's Portfolio Website" />
+  <title>Ali Abdullah Al Ramadan | Portfolio</title>
+
+  <link rel="icon" type="image/x-icon" href="assets/images/icon.ico">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="brand">
+      <span class="brand-text">Ali Abdullah Al Ramadan</span>
+    </div>
+
+    <nav>
+      <ul class="nav-list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <button id="themeToggle" class="btn btn-secondary">
+      Switch to Dark Mode
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container hero-inner">
+    <p id="greeting" class="greeting"></p>
+    <h1>Building clean, responsive web experiences.</h1>
+    <p class="tagline">
+      I'm <strong>Ali Abdullah Al Ramadan</strong>, a Software Engineering student focused on building creative projects, exploring AI-driven solutions, and developing clean, responsive web applications.
+    </p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#projects">See my projects</a>
+      <a class="btn btn-secondary" href="#contact">Contact me</a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section about-section">
+  <div class="container">
+    <div class="about-card">
+      <h2>About Me</h2>
+
+      <div class="about-grid">
+        <img
+          class="profile-img"
+          src="assets/images/Alicmd.jpg"
+          alt="Photo of Ali"
+          width="160"
+          height="160"
+        />
+
+        <div class="about-text">
+          <p>
+            I’m a Software Engineering student focused on building creative, practical projects that combine clean development with modern technologies.
+          </p>
+
+          <p>
+            I’m particularly interested in game development and modding, where creativity meets technical problem-solving. I enjoy working with languages like C# and Java, and I’m gradually expanding into databases and SQL to strengthen my full-stack understanding.
+          </p>
+
+          <p>
+            Currently, I’m developing my front-end skills with HTML, CSS, and JavaScript to create responsive, user-friendly web experiences. My goal is to continuously grow as a developer by turning ideas into real, functional applications.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+  <div class="container">
+    <h2>Projects</h2>
+
+    <div class="projects-grid">
+
+      <article class="project-card">
+        <h3 class="project-title">SnipShelf</h3>
+        <p class="project-description">
+          Clipboard screenshot manager built with WPF (.NET).
+        </p>
+        <a class="project-button"
+           href="https://github.com/Ali-A-R9/SnipShelf"
+           target="_blank">
+          View on GitHub
+        </a>
+      </article>
+
+      <article class="project-card">
+        <h3 class="project-title">My Schedule</h3>
+        <p class="project-description">
+          Web app to organize daily activities visually.
+        </p>
+        <a class="project-button"
+           href="https://github.com/Ali-A-R9/my-schedule"
+           target="_blank">
+          View on GitHub
+        </a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <div class="container">
+    <h2>Contact</h2>
+
+    <form id="contactForm" class="contact-form">
+      <div class="field">
+        <label for="name">Name</label>
+        <input 
+          id="name" 
+          name="name" 
+          type="text" 
+          placeholder="Enter your full name..."
+          required />
+      </div>
+
+      <div class="field">
+        <label for="email">Email</label>
+        <input 
+          id="email" 
+          name="email" 
+          type="email" 
+          placeholder="example@email.com"
+          required />
+      </div>
+
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea 
+          id="message" 
+          name="message" 
+          rows="5"
+          placeholder="Write your message here..."
+          required></textarea>
+      </div>
+
+      <button class="btn btn-primary" type="submit">
+        Send Message
+      </button>
+
+      <p id="formStatus" class="form-status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span id="year"></span> Ali Abdullah Al Ramadan</p>
+  </div>
+</footer>
+
+<script src="js/script.js" defer></script>
+
+</body>
+</html>

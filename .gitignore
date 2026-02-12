@@ -1,0 +1,16 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Node (in case I add tooling later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs (future-proof)
+dist/
+build/
